@@ -9,7 +9,7 @@ import shutil
 def main():
     # Get the list of all files in the specific folder.
     source_path = "/Users/leopoldakpabio/Desktop/"
-    destination_path = "/Users/leopoldakpabio/Desktop/Screenshots_2024/"
+    destination_path = "/Users/leopoldakpabio/Desktop/Screenshots_2025/"
 
     # Retrieve the list of all images with these extensions(.png, .jpeg and .jpg) in the 'source path' folder.
     images = [f for f in os.listdir(source_path) if ('.png' in f.lower()) or ('.jpeg' in f.lower()) or ('jpg' in f.lower())]
